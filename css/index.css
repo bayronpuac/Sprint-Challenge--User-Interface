@@ -30,8 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    border: 1px solid black;
-    width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -149,19 +147,25 @@ footer nav a {
 
 /* New Code that I added */
 
+body{
+    margin: auto;
+    width: 90%;
+}
+
 
 nav{
     display: flex;
     justify-content: space-between ;
-    width: 50%;
-    border: 5px solid purple;
     align-items: flex-end;
+    /* margin: auto; */
+}
+nav a{
+    color:black;
 }
 
 header{
     display: flex;
     justify-content: center;
-    border: 1px solid blue;
 }
 
 .middle-section{
