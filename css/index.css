@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     border: 1px solid black;
-    width: 70%;
+    width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -149,16 +149,13 @@ footer nav a {
 
 /* New Code that I added */
 
+
 nav{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    border: 1px solid purple;
-}
-nav a{
-    text-decoration: none;
-    color: black;
-    border: 1px solid red;
+    justify-content: space-between ;
+    width: 50%;
+    border: 5px solid purple;
+    align-items: flex-end;
 }
 
 header{
@@ -194,4 +191,41 @@ button {
     margin-top: 0px;
     padding: 6px 40px;
     border-radius: 7px;
+}
+
+.about{
+    border-width:5px;  
+    border-bottom:dotted solid;
+    /* border: 1px solid orange; */
+}
+
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+
+}.middle-content .boxes .box3{
+    background: cadetblue;
+
+}.middle-content .boxes .box4{
+    background: coral;
+
+}.middle-content .boxes .box5{
+    background: crimson;
+
+}.middle-content .boxes .box6{
+    background: forestgreen;
+
+}.middle-content .boxes .box7{
+    background: darkorchid;
+
+}.middle-content .boxes .box8{
+    background: hotpink;
+
+}.middle-content .boxes .box9{
+    background: indigo;
+
+}.middle-content .boxes .box10{
+    background: dodgerblue;
 }
