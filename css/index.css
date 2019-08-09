@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    border: 1px solid black;
+    width: 70%;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +145,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* New Code that I added */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid purple;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid red;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 1px solid black;     */
+}
+
+.firstrow{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.secondrow{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    border: 2px solid black;
+    margin-top: 0px;
+    padding: 6px 40px;
+    border-radius: 7px;
 }
